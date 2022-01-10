@@ -1,8 +1,9 @@
+import "./About.css"
 
 export const About = () => {
     return(
-        <div>
-            <p>Now let me tell you</p>
+        <div className="wall">
+            <p className="intro">About</p>
         </div>
     )
 }

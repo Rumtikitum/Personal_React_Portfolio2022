@@ -1,16 +1,119 @@
-.wrapperNav {
-    width: 33%;
-    height: 100%;
-    background-color: #1b3246;
+.navlist {
+    padding-left: 0px;
+}
 
+.wrapperNav {
+    position: fixed;
+    left: -45vw;
+    width: 25vw;
+    height: 100vh;
+    padding: 0;
+    transition: all .5s ease;
+    z-index: 50;
+
+}
+
+.sideTitle {
+    height: 10vh;
+    position: relative;
+  }
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 2vw;
+    font-weight: bolder;
 }
 
 .sideNav {
-    color: #f2f2f2;
+    color: gray;
     list-style-type: none;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
 }
 
 .link {
-    color: #f2f2f2;
+    color: gray;
     text-decoration: none;
+    padding-left: 2vw;
+    transition: .4s;
 }
+
+.link:hover {
+    padding-left: 3vw;
+}
+
+
+
+.awesome {
+    padding-right: 1vw;
+}
+
+#check {
+    display: none;
+}
+
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 3px;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 3vh;
+    color: #f2f2f2;
+    padding: 6px 12px;
+    transition: all .5s;
+    z-index: 25;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -45vw;
+    top: 2.5vh;
+    font-size: 2.7vh;
+    color: #f2f2f2;
+    padding: 4px 9px;
+    transition: all .5s;
+
+}
+
+#check:checked ~ .wrapperNav {
+    left: 0;
+}
+
+#check:checked ~ label #btn {
+    left: 12vw;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+    left: 10vw;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .wrapperNav {
+        background-color: rgb(242, 242, 242, .5);
+      }
+    
+
+  }
+
+
+  @media only screen and (max-width: 1150px) {
+    .wrapperNav {
+        width: 50vw;
+    }
+    
+
+  }

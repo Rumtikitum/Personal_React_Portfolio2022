@@ -1,8 +1,9 @@
+import "./Resume.css"
 
 export const Resume = () => {
     return(
-        <div>
-            <p>This be Resume</p>
+        <div className="wall">
+            <p className="intro">This be Resume</p>
         </div>
     )
 }

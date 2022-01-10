@@ -1,8 +1,9 @@
+import "./Work.css"
 
 export const Work = () => {
     return(
-        <div>
-            <p>This be Work</p>
+        <div className="wall">
+            <p className="intro">This be Work</p>
         </div>
     )
 }

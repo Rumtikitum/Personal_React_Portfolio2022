@@ -1,0 +1,97 @@
+.string {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.self {
+    z-index: 9999;
+    height: 20vh;
+    border-radius: 50%;
+    margin-bottom: 0;
+    position: absolute;
+    top: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hello {
+    font-size: 10vh;
+    animation-name: slide-in;
+    animation-duration: 4s;
+    margin-left: 400vw;
+    overflow: hidden;
+    z-index: 50;
+    
+  }
+ 
+.animate-this-element {
+    font-size: 10vh;
+    animation-name: slide-right;
+    animation-duration: 4s;
+    overflow: hidden;
+    position: relative;
+  }
+
+.animatedescr {
+    font-size: 5vh;
+    animation-name: slide-right-after;
+    animation-duration: 4s;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+@keyframes slide-right-after {
+  
+    from {
+      margin-left: -900vw;
+    }
+  
+    50% {
+       opacity: 0.9;
+    }
+  
+    to {
+      margin-left: 0px;
+    }
+  
+  }
+
+  @keyframes slide-right {
+  
+    from {
+      margin-left: -300vw;
+    }
+  
+    50% {
+       opacity: 0.9;
+    }
+  
+    to {
+      margin-left: 0px;
+    }
+  
+  }
+
+  @keyframes slide-in {
+  
+    from {
+      margin-left: -100vw;
+    }
+  
+    50% {
+        margin-left: 0vw;
+    }
+  
+    to {
+      margin-left: 200vw;
+    }
+  
+  }
+
+  
+
+
+  
+
