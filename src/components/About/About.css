@@ -1,13 +1,11 @@
-.wall {
-    background: linear-gradient(rgb(230, 100, 101), #9198e5);
+.aboutwall {
+    background: linear-gradient(#ff7369, #9198e5);
     position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
     left: 0;
     width: 80vw;
     height: 80vh;
-    text-align: center;
     margin: 10vh 10vw;
     border-radius: 5px;
   }
@@ -15,4 +13,92 @@
   .intro {
     margin-top: 30vh;
     font-size: 10vh;
+}
+
+.me {
+  height: 15vw;
+  border-radius: 3%;
+  animation-name: enter-in;
+  animation-duration: 3s;
+}
+
+.imagecontainer {
+  flex: 1;
+}
+
+.aboutflex {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20vw;
+  margin-left: 20vw;
+}
+
+.aboutintro {
+  padding-top: 5vh;
+  font-size: 15vh;
+  animation-name: fade-in-out;
+  animation-duration: 6s;
+  flex: 1;
+}
+
+.aboutcontent {
+  font-size: 2vh;
+
+  flex: 2;
+}
+
+@media only screen and (max-width: 650px) {
+    .animate-this-element {
+        font-size: 5vh;
+
+      }
+    
+    .animatedescr {
+        font-size: 2vh;
+
+    }    
+
+  }
+
+  @keyframes enter-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }    
+}
+
+@keyframes fade-in-out {
+  from {
+      opacity: 0;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }    
+}
+
+@media only screen and (max-width: 1210px) {
+  .aboutintro {
+    font-size: 10vh;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .aboutintro {
+    font-size: 6vh;
+  }
+  .aboutcontent {
+    font-size: 1.5vh;
+  }
 }

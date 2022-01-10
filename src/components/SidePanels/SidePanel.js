@@ -20,7 +20,7 @@ export const SideNav = () => {
                     <li className="sideNav"><Link to="/about" className="link">About</Link></li>
                     <li className="sideNav"><Link to="/work" className="link">Work</Link></li>
                     <li className="sideNav"><Link to="/resume" className="link">Resume</Link></li>
-                    <li className="sideNav"><Link to="/resume" className="link">Contact</Link></li>
+                    <li className="sideNav"><Link to="/contact" className="link">Contact</Link></li>
                 </ul>    
             </div>
         

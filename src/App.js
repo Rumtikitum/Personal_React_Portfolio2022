@@ -5,6 +5,7 @@ import { Home } from './components/Home/Home';
 import { SideNav } from './components/SidePanels/SidePanel';
 import { Resume } from './components/Resume/Resume';
 import { Work } from './components/Work/Work';
+import { Contact } from './components/Contact/Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/work" element={<Work/>}/>
           <Route path="/resume" element={<Resume/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
     </Router>
