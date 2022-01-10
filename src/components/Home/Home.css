@@ -4,14 +4,10 @@
 }
 
 .self {
-    z-index: 9999;
-    height: 20vh;
+    height: 25vh;
     border-radius: 50%;
-    margin-bottom: 0;
-    position: absolute;
-    top: 20vh;
-    margin-right: auto;
-    margin-left: auto;
+    z-index: -1;
+    margin-top: -50vh;
 }
 
 .hello {
