@@ -1,9 +1,10 @@
+import ImageSlider from "./ImageSlider"
 import "./Work.css"
 
 export const Work = () => {
     return(
         <div className="wall">
-            <p className="intro">This be Work</p>
+            <ImageSlider/>
         </div>
     )
 }

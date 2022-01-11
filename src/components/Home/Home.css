@@ -124,6 +124,11 @@
 }
   
 
-@media only screen and (max-width: 1210px) {
-  
+@media only screen and (max-width: 575px) {
+  .animatedescr {
+    font-size: 3vh;
+}
+.animate-this-element {
+  font-size: 6vh;
+}
   }
