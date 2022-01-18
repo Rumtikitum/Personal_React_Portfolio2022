@@ -16,7 +16,7 @@ export const SideNav = () => {
                         </span>
                 </header>
                 <ul className="navlist">
-                    <li className="sideNav"><Link to="/" className="link">Home</Link></li>
+                    <li className="sideNav"><Link to="/Personal_React_Portfolio2022" className="link">Home</Link></li>
                     <li className="sideNav"><Link to="/about" className="link">About</Link></li>
                     <li className="sideNav"><Link to="/work" className="link">Work</Link></li>
                     <li className="sideNav"><Link to="/contact" className="link">Contact</Link></li>

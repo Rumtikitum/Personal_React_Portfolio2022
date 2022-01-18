@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <SideNav></SideNav>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/Personal_React_Portfolio2022" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/work" element={<Work/>}/>
           <Route path="/contact" element={<Contact/>}/>
