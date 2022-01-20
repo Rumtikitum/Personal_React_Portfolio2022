@@ -20,6 +20,8 @@ export const SideNav = () => {
                     <li className="sideNav"><Link to="/about" className="link">About</Link></li>
                     <li className="sideNav"><Link to="/work" className="link">Work</Link></li>
                     <li className="sideNav"><Link to="/contact" className="link">Contact</Link></li>
+                    <li className="sideNav"><a href="https://www.linkedin.com/in/richie-tauch-13a0b9115/" className="link">LinkedIn</a></li>
+
                 </ul>    
             </div>
         

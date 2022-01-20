@@ -1,3 +1,75 @@
-.modal {
-    color: black;
+.worktitle {
+    padding: 3vw 3vh;
+    flex: 1;
 }
+
+.workbox {
+    padding: 2vh 2vw;
+    margin-right: auto;
+    margin-left: auto;
+    flex: 6;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.tier1 {
+    flex: 1;
+    display: flex;
+}
+
+.tier2 {
+    flex: 1;
+    display: flex;
+}
+
+.sample {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-bottom: 3vh;
+    flex-direction: row;
+}
+
+.pic {
+    width: 15vw;
+    flex: 1;
+}
+
+.desc {
+    width: 30vw;
+    flex: 1;
+    text-align: left;
+}
+
+.workwall {
+    background: linear-gradient(teal, #9198e5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 80vw;
+    text-align: center;
+    margin: 10vh 10vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftbox {
+      margin-right: .75vw;
+  }
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .tier1 {
+        flex-direction: column;
+    }
+    .tier2 {
+        flex-direction: column;
+    }
+    .pic {
+        width: 30vw;
+    }
+  }
